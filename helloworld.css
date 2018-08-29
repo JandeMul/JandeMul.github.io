@@ -1,0 +1,7 @@
+body {background-color: chartreuse;}
+header {
+    display: block;
+    background-color: aqua;
+    text-align: center;
+    font-size:200%;
+}

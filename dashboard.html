@@ -1,19 +1,179 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
 <head>
-        <title>Jan de Mul</title>
-        <link rel="stylesheet" type="text/css" media="screen" href="dashboard.css" />
-    </head>
-    
-    
-    <body>
-    
-        <header>
-            <p id="headerdiv">Dashboard</p>
-        </header>
-    
-        <ul id="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="info.html">Informatie</a></li>
-            <li><a id="active" href="dashboard.html">Dashboard</a></li>
+    <meta charset="UTF-8">
+    <title>Jan de Mul</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./normalize.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-con">
+</head>
+
+<body>
+
+    <!-- header -->
+    <!-- all pages equal -->
+    <header>
+        <img class="headerlogo" src="images/logo.png" alt="The griffin logo.">
+        <p class="header">Jan de Mul</p>
+    </header>
+
+    <!-- navigation -->
+    <!-- all pages equal -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="introductie.html">Introductie</a></li>
+            <li><a class="active" href="dashboard.html">Dashboard</a></li>
         </ul>
-    </body>
-    </html>
+    </nav>
+
+    <!-- body dashboard -->
+    <div class="dashboardbody">
+        <h3>Studiewijzer</h3>
+        <ul>
+                <br>
+            <li>Het <a class="link" target="_blank" href="./OER_2017-18.pdf">Onderwijs en Examenregelement (OER)</a> van de HZ.</li>
+                <br>
+            <li>De <a class="link" target="_blank" href="./URHBOICT_2018-19.pdf">Uitvoeringsregeling (UR)</a> van de opleiding HBO-ICT.</li>
+                <br>
+            <li><a class="link" target="_blank" href="https://learn.hz.nl/my/">Learn.hz</a></li>
+                <br>
+            <li>HBO-ICT <a class="link" target="_blank" href="https://hz-hbo-ict.slack.com">Slack</a> server.</li>
+                <br>
+            <li><a class="link" target="_blank" href="https://apps.hz.nl/angular/studievoortgang/studiestatus">Studievoortgang</a>.</li>
+                <br>
+            <li>HBO-ICT <a class="link" target="_blank" href="https://github.com/HZICT">Github</a> omgeving.</li>
+                <br>
+            <li>Sitemap.</li>
+                <br>
+        </ul>
+    </div>
+
+    <!-- table body dashboard -->
+    <table class="dashboardtable">
+        <caption>EC dashboard</caption>
+        <tr>
+            <th>blok/vaktoets</th>
+            <th>Resultaat</th>
+            <th>Behaalbare EC waarde</th>
+            <th>Behaalde EC waarde</th>
+        </tr>
+        <tr>
+            <td colspan="4">Blok 1, introduction to computer science</td>
+        </tr>
+        <tr>
+            <td>Opleidings- en beroepscor.</td>
+            <td>-</td>
+            <td>2.50 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>Computer science basics</td>
+            <td>-</td>
+            <td>7.50 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>Programming basics</td>
+            <td>-</td>
+            <td>5.00 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td colspan="4">Blok 2, gamedevelopment</td>
+        </tr>
+        <tr>
+            <td>Professional skills 1</td>
+            <td>-</td>
+            <td>2.50 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>HZ-personality 2a</td>
+            <td>-</td>
+            <td>2.50 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>Object-oriented programming</td>
+            <td>-</td>
+            <td>10.00 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td colspan="4">Blok 3, frameworks 1</td>
+        </tr>
+        <tr>
+            <td>Professional skills 2</td>
+            <td>-</td>
+            <td>2.50 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>Professinele werkplek</td>
+            <td>-</td>
+            <td>2.50 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>Framework development 1</td>
+            <td>-</td>
+            <td>5.00 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>Framework project 1</td>
+            <td>-</td>
+            <td>5.00 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td colspan="4">Blok 4, frameworks 2</td>
+        </tr>
+        <tr>
+            <td>Professional skills 3</td>
+            <td>-</td>
+            <td>2.50 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>IT Personality 2a</td>
+            <td>-</td>
+            <td>2.50 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>Framework development 2</td>
+            <td>-</td>
+            <td>5.00 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td>Framework project 2</td>
+            <td>-</td>
+            <td>5.00 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+        <tr>
+            <td colspan="4">Totaal, NBSA-grens: 45.00 EC</td>
+        </tr>
+        <tr>
+            <td>Totaal</td>
+            <td>-</td>
+            <td>60.00 EC</td>
+            <td>0.00 EC</td>
+        </tr>
+    </table>
+
+    <!-- footer -->
+    <!-- all pages equal -->
+    <footer>
+        <p>Website by: Jan de Mul.</p>
+        <p>Contact: <a class="maillink" href="mailto: jandemul2001@gmail.com">jandemul2001@gmail.com</a>.</p>
+        <p>&copy; Copyright by Jan de Mul.</p>
+    </footer>
+
+</body>
+
+</html>

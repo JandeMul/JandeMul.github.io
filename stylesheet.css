@@ -243,6 +243,32 @@ table, th, td {
     padding: 15px;
 }
 
+/* body easteregg */
+.easteregg {
+    display: block;
+    background-color: #333;
+    border-top: 5px solid #4caf50;
+    border-bottom: 5px solid #4caf50;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.eastereggimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: spinning 1s linear 0s infinite;
+}
+
+@keyframes spinning{
+    from {transform: rotate(12deg);}
+    to {transform: rotate(372deg);}
+
+}
+
 /* footer */
 /* all pages equal */
 footer {
@@ -272,4 +298,16 @@ footer p {
 .maillink:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+.easteregglink {
+    float: right;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    right: 50px;
+}
+
+.easteregglink:hover {
+    color: #ffffff;
 }

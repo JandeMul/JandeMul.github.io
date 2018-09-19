@@ -245,33 +245,32 @@ table, th, td {
 
 /* body mijn motivatie */
 .theorietitel {
-   display: block;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
    background: #333;
    text-align: center;
    border-top: 5px solid #4caf50;
    border-bottom: 5px solid #4caf50;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 15px;
+   margin: auto;
+   padding: 20px;
    width: 95%;
    font-weight: bold;
    font-size: 150%;
 }
 
 .theorie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background: #333;
     border-top: 5px solid #4caf50;
     border-bottom: 5px solid #4caf50;
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: 20px;
     width: 95%;
-
-    height: 500px;
 }
 
 .titels2 {
@@ -285,9 +284,7 @@ table, th, td {
    background-color: #333;
    border-top: 5px solid #4caf50;
    border-bottom: 5px solid #4caf50;
-   padding: 15px;
-   margin-left: auto;
-   margin-right: auto;
+   padding: 20px;
    width: 45%;
    font-weight: bold;
    font-size: 150%;
@@ -297,9 +294,7 @@ table, th, td {
     background-color: #333;
     border-top: 5px solid #4caf50;
     border-bottom: 5px solid #4caf50;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
     width: 45%;
     font-weight: bold;
     font-size: 150%;
@@ -309,17 +304,13 @@ table, th, td {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-    height: 500px;
 }
 
 .prestatiemotivatie {
     background-color: #333;
     border-top: 5px solid #4caf50;
     border-bottom: 5px solid #4caf50;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
     width: 45%;
 }
 
@@ -327,9 +318,7 @@ table, th, td {
     background-color: #333;
     border-top: 5px solid #4caf50;
     border-bottom: 5px solid #4caf50;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
     width: 45%;
 }
 
@@ -344,9 +333,7 @@ table, th, td {
     background-color: #333;
     border-top: 5px solid #4caf50;
     border-bottom: 5px solid #4caf50;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
     width: 45%;
     font-weight: bold;
     font-size: 150%;
@@ -356,9 +343,7 @@ table, th, td {
     background-color: #333;
     border-top: 5px solid #4caf50;
     border-bottom: 5px solid #4caf50;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
     width: 45%;
     font-weight: bold;
     font-size: 150%;
@@ -368,17 +353,13 @@ table, th, td {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-    height: 500px;
 }
 
 .conclusie {
     background-color: #333;
     border-top: 5px solid #4caf50;
     border-bottom: 5px solid #4caf50;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
     width: 45%;
 }
 
@@ -386,9 +367,8 @@ table, th, td {
     background-color: #333;
     border-top: 5px solid #4caf50;
     border-bottom: 5px solid #4caf50;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    padding: 20px;
     width: 45%;
 }
 

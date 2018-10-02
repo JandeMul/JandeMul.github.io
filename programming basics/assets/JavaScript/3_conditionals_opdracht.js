@@ -4,22 +4,16 @@ console.log(cijfer);
 
 if (cijfer < 6) {
     console.log('YOU SHAL NOT PASS! (onvoldoende).');
-}
-
-else if (cijfer >= 6 && cijfer <= 7) {
+} else if (cijfer >= 6 && cijfer <= 7) {
     console.log('Voldoende.');
-}
-
-else if (cijfer >= 7 && cijfer <= 9) {
+} else if (cijfer >= 7 && cijfer <= 9) {
     console.log('Goed.');
-}
-
-else {
+} else {
     console.log('Uitmuntend.');
 }
 
 //opdracht 2
-const cijfer2 = 10
+const cijfer2 = 6;
 console.log(cijfer2);
 switch (cijfer2) {
     case 0:
@@ -44,12 +38,12 @@ switch (cijfer2) {
 }
 
 //opdracht 3
-purchasedBook = true;
-job = 'teacher';
-inTrain = true;
+let purchasedBook = false;
+let job = 'teacher';
+let inTrain = true;
 
-if (purchasedBook == true && inTrain == true && job == 'teacher') {
-    console.log('Finally i can enjoy my book.');    
+if (purchasedBook && inTrain && job == 'teacher') {
+    console.log('Finally i can enjoy my book.');
 }
 
 else {
